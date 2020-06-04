@@ -3,10 +3,10 @@
     <head>
     <title>Things Zack Hates </title>
     <style>
-
+        @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@900&display=swap');
           body {
              background-image: linear-gradient(red, blue);
-             height: 1080px;
+             height: 720px;
              width: 1080px;
           }
         header {
@@ -19,7 +19,7 @@
         }
     /* navigation menu */
         nav {
-        background-image: linear-gradient(blue, black 90%);
+        background: rgb(225, 225, 225);
         margin: 0 auto;
         margin-bottom: 20px;
         display: flex;
@@ -43,20 +43,11 @@
         color: #fff;
         }
         #all-contents {
-        color: rgb(0, 0, 0);
-        text-align: center;
-        }
-        #title {
-            color: white;
+        color: pink
+        
         }
     /* main container area beneath menu */
-        main {
-        background: rgb(255,255,255, 100);
-        display: flex;
-        margin: auto;
-        width: 75%;
-        padding: 10px;
-        }
+     
         .sidebar {
         margin-right: 25px;
         padding: 10px;
@@ -75,6 +66,12 @@
           border: 2px solid red;
           border-radius: 25px;
         }
+        .main-content{
+            font-family: 'Inconsolata', monospace;
+        }
+        #top {
+            text-align: center;
+        }
 
     
     </style>
@@ -84,36 +81,21 @@
        
         <div id="all-contents">
             <nav>
-                <header id="title">Things Zack Hates</header>
+                <header>Things Zack Hates</header>
                 <ul>
                     <li><a href= "index.html">Home</a>
                     </li>
-                    <li><a href= "portfolio.html">Portfolio</a>
+                    <li><a href= "about.html">About</a>
                     </li>
                 </ul>
         </div>
             </nav>
-        <div class="box"></div>
+        <div class="main-content">
             <main>
-               
-                <div class="sidebar">
-                    <img src="https://cdn.discordapp.com/attachments/659961786878918656/717914360256659496/fat_friend.jpg">
-                    <video controls src="https://cdn.discordapp.com/attachments/659961786878918656/706331992840732703/VID_32641019_214612_684.mp4"></video>
-                </div>
+               <header id= "top">Top 10 Things Zack Hates</header>
+        </div> 
                 
-                <div class="content">
-                    <header id=bald> Zack is bald</header>
-                    <p> Top 10 things Zack hates and why he is bald </p>  
-                    <section class="interest">
-                        <header>People that make Zack mad</header>
-                        <ul>
-                            <li>Rick</li>
-                            <li>Josh</li>
-                            <li>Noah</li>
-                        </ul>
-                    </section>
-                </div>
             </main>
-        </div>
+        
     </body>
 </html>
