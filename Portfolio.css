@@ -1,0 +1,73 @@
+/*CSS DOC*/
+          body {
+             background-image: linear-gradient(red, blue);
+             height: 680px;
+             
+          }
+        header {
+        font-size: 1.5em;
+        font-weight: bold;
+        }
+        #all-contents {
+        max-width: 800px;
+        margin: auto;
+        }
+    /* navigation menu */
+        nav {
+        background-image: linear-gradient(blue, black 90%);
+        margin: 0 auto;
+        margin-bottom: 20px;
+        display: flex;
+        padding: 5px;
+        }
+        nav header {
+        display: flex;
+        align-items: center;
+        color: rgb(0, 0, 0);
+        flex: 1;
+        }
+         nav ul {
+        list-style-image: none;
+        }
+        nav li {
+        display: inline-block;
+        padding: 0 10px;
+        }
+        nav a {
+        text-decoration: none;
+        color: #fff;
+        }
+        #all-contents {
+        color: rgb(0, 0, 0);
+        }
+        #title {
+            color: white;
+        }
+    /* main container area beneath menu */
+        main {
+        background: rgb(255,255,255, 100);
+        display: flex;
+        margin: auto;
+        width: 75%;
+        padding: 10px;
+        text-align: center;
+        }
+        .sidebar {
+        margin-right: 25px;
+        padding: 10px;
+        }
+        .sidebar img {
+        width: 200px;
+        }
+         .content {
+        flex: 1;
+        padding: 15px;
+        }
+        .interests header {
+        font-size: 1.25em;
+        }
+        #border {
+          border: 2px solid red;
+          border-radius: 25px;
+        }
+
