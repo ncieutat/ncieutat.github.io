@@ -1,7 +1,10 @@
 /*CSS DOC*/
         body {
             background:
-            linear-gradient(20deg, red, blue, transparent);
+            background-image: -webkit-linear-gradient(110deg, red, blue, transparent);
+            background-image: -moz-linear-gradient(110deg, red, blue, transparent);
+            background-image: -o-linear-gradient(110deg, red, blue, transparent);
+            background-image: linear-gradient(200deg, red, blue, transparent);
             height: 100vh;
         }
 

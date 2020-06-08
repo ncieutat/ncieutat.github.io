@@ -1,12 +1,11 @@
-
-   /*CSS DOC*/
+/*CSS DOC*/
         body {
             background-image: -webkit-linear-gradient(110deg, red, blue, transparent);
             background-image: -moz-linear-gradient(110deg, red, blue, transparent);
             background-image: -o-linear-gradient(110deg, red, blue, transparent);
             background-image: linear-gradient(200deg, red, blue, transparent);
             height: 100vh;
-            margin:auto;
+            
             background-position: center;
             }
 
@@ -30,8 +29,8 @@
             margin: 0 auto;
             margin-bottom: 10px;
             display: flex;
-            padding:5px;
-            width: 1090px;
+            padding: 5px;
+            width: 1000px;
 
         }
 
