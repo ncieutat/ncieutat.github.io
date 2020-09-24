@@ -1,0 +1,14 @@
+		#box {
+			width: 70px;
+			height: 70px;
+			background-color: purple;
+			font-size: 300%;
+			text-align: center;
+			display: block;
+			position: absolute;
+			top: 100px;
+			left: 0px;
+		}
+        body {
+            background-image: url("https://cdn.discordapp.com/attachments/745620874509418526/758786309857738813/Screenshot_2020-09-23_151126.png");
+        }

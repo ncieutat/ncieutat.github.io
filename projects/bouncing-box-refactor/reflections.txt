@@ -1,0 +1,7 @@
+How is the jQuery file being loaded into this project: direct download or Content Delivery Network (CDN)?
+jQuery is loaded as a CDN
+If you load the index.js file before the jquery file our program doesn't work. Why? Open the preview in a new tab and look at the console to help you find out why.
+It won't work, jQuery allows some task that aren't already built into js to function
+In your opinion, what are the pros of refactoring your HTML, CSS, and JavaScript into separate files? What are the cons?
+Pros: Cleaner code, lines of code are shortened in each file, less workload on the computer
+Cons: takes more time to write the code, if theres an error with the code it could take longer to figure out depending on the number of files
