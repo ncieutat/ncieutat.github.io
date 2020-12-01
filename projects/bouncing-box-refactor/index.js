@@ -29,16 +29,21 @@
 			it should move the Box to a new location. If the box drifts off the screen
 			turn it around! 
 			*/
-			function update() {
-				positionX += speedX;
-				$('#box').css("left", positionX);
-
-				if (positionX > BOARD_WIDTH) {
+            function postiionUpdate1(){
+                positionX += speedX;
+                $('#box').css("left", positionX);
+            }
+            function postiionUpdate2(){
+                if (positionX > BOARD_WIDTH) {
 					speedX = -speedX;
 				}
 				else if (positionX < 0) {
 					speedX = -speedX;
 				}
+            }
+            function update() {
+                postiionUpdate1();
+                postiionUpdate2();
 			}
 
 			/* 

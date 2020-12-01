@@ -1,0 +1,35 @@
+
+body {
+  background-color: black;
+}
+
+#board {
+  width: 1870px;
+  height: 985px;
+  border: 1px solid white;
+  background-color: black;
+  position: relative;
+}
+
+#ball {
+  background-color: rgb(80, 7, 90);
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 935px;
+  top: 492.5px;
+  border-radius: 25px;
+}
+#leftPanel {
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 500px;
+    top: 220px;
+    border-radius: 0px;
+}
+
+/*   left: 100px; */  /* Uncomment if you want to set a "starting" position */
+/*   top: 100px;  */  /* Uncomment if you want to set a "starting" position */
+}

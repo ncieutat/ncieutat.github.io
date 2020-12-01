@@ -1,0 +1,30 @@
+User Story / Gameplay:
+Describe the gameplay: 
+the gameplay is simple, a ball bounces back and forth from one side to another, with the objective being to move panels and allow the ball to bounce back and forth to prevent the ball from going pass the panel
+What are the conditions when the game begins?
+ 2 identical panels on each side are able to be moved vertically with the objective being to bounce the ball into the others goal(pass the opposite panel)
+Does the game have an end?
+ If so, what are the conditions for when it ends? The game ends when one player reaches 10 points out with the winner being the player with the most points
+What ifs will there be?
+ if scored, if bounced, who won
+Visual Game Components:
+What are the visual game components?
+ Ball, vertical panels, black or solid background
+Which will be static?
+ the board/background
+Which will be animated?
+ the pannels and ball
+What data will you need to manage each game component?
+ how the panels will move, how the ball will move, how score will be counted, panels y position, balls speed, balls starting position, balls current position
+Events / Logic:
+What events will occur in this game?
+ (timer events, keyboard events, clicking events?) clicking and keyboard events(movement of the panels)
+How do those events affect the data of the program?
+ it allows the player to have control over their specific panel
+For each "event", write out the high-level logic of what will happen. It is better (and tricky) to be as specific as you can while remaining high-level!:
+If you push "W" the left panel will move up by 5 px
+If you push "S" the left panel will move down by 5 px
+If you push "Up arrow" the right panel will move up by 5 px
+If you push "Down arrow" the right panel will move down by 5 px
+when the ball is off screen, reset round and gives 1 point to scorer
+when someone reaches 10 points, display a banner saying "this player won"
